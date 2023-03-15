@@ -23,7 +23,7 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-    name = 'Gemstone_Price_Prediction',
+    name = 'mlproject_regression',
     version= '0.0.1',
     author='Utkarsh Gaikwad',
     author_email='gaikwadujg@gmail.com',
