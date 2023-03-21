@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gemstone Data Form</title>
+    <style>
+      /* CSS styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      
+      input[type="text"], select {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        width: 100%;
+      }
+      
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Gemstone Data Form</h1>
+    <form action="process-gemstone.php" method="POST">
+      <label for="carat">Carat:</label>
+      <input type="text" id="carat" name="carat" placeholder="Enter carat value (float)">
+      
+      <label for="cut">Cut:</label>
+      <select id="cut" name="cut">
+        <option value="Fair">Fair</option>
+        <option value="Good">Good</option>
+        <option value="Very Good">Very Good</option>
+        <option value="Premium">Premium</option>
+        <option value="Ideal">Ideal</option>
+      </select>
+      
+      <label for="color">Color:</label>
+      <select id="color" name="color">
+        <option value="D">D</option>
+        <option value="E">E</option>
+        <option value="F">F</option>
+        <option value="G">G</option>
+        <option value="H">H</option>
+        <option value="I">I</option>
+        <option value="J">J</option>
+      </select>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

@@ -5,7 +5,6 @@ import numpy as np
 import pandas as pd
 import dill
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
-from sklearn.model_selection import GridSearchCV
 
 from src.exception import CustomException
 from src.logger import logging
