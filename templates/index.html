@@ -9,7 +9,7 @@
     <h1>Gemstone Data Prediction - Utkarsh Gaikwad</h1>
     <img src="{{url_for('static', filename='/Image/your_profile_pic.jpg')}}" alt="Your Profile Picture" class="profile">
     <div class="form-box">
-    <form action="/predict" method="POST">
+    <form action="{{url_for('predict_datapoint')}}" method="POST">
         <div class="form-group">
             <label for="carat">Carat:</label>
             <input type="text" id="carat" name="carat" placeholder="Enter carat value (float)">
@@ -82,5 +82,8 @@
       <input type="submit" value="Submit">
     </form>
     </div>
+    <h2>
+      Predicted Gemstone Price is : {{ results }}
+    </h2>
   </body>
 </html>
