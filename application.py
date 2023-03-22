@@ -30,13 +30,13 @@ def predict_datapoint():
         )
 
         pred_df = data.get_data_as_dataframe()
-
+        
         print(pred_df)
 
         predict_pipeline = PredictPipeline()
         pred = predict_pipeline.predict(pred_df)
         results = round(pred[0],2)
-        return render_template('index.html',results=results)
+        return render_template('index.html',results=results,pred_df = pred_df)
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8000,debug=True)
