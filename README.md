@@ -35,6 +35,10 @@ AWS Elastic Beanstalk link : [http://gemstonepriceutkarshgaikwad-env.eba-7zp3wap
 
 ![HomepageUI](./Screenshots/HomepageUI.jpg)
 
+# YouTube Video Link
+
+Link for YouTube Video : [https://youtu.be/Xvk5r0t_RQw](https://youtu.be/Xvk5r0t_RQw)
+
 # AWS API Link
 
 API Link : [http://gemstonepriceutkarshgaikwad-env.eba-7zp3wapg.ap-south-1.elasticbeanstalk.com/predictAPI](http://gemstonepriceutkarshgaikwad-env.eba-7zp3wapg.ap-south-1.elasticbeanstalk.com/predictAPI)
